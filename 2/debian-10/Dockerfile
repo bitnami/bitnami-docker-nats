@@ -23,7 +23,7 @@ ENV BITNAMI_APP_NAME="nats" \
     BITNAMI_IMAGE_VERSION="2.1.8-debian-10-r19" \
     PATH="/opt/bitnami/nats/bin:$PATH"
 
-EXPOSE 4222 6222 8222
+EXPOSE 4222 6222 8222 7422
 
 WORKDIR /opt/bitnami/nats
 USER 1001
